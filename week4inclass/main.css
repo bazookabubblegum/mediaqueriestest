@@ -1,0 +1,58 @@
+
+
+/*
+@media screen and (max-width:680px) {
+	.class{
+		whatever css you want
+	}
+}
+
+other version:
+@media and screen only (max-width:500px){
+	.class{
+		whatever css
+		}
+	}*/
+
+.box{
+	height:200px;
+	width:24.7%;
+	display:inline-block;
+	margin:0 auto;
+}
+
+.unicorn{
+	background-color:#000;
+	
+}
+
+.chupacabra{
+	background-color:#353839;
+	
+}
+
+.merman{
+	background-color:#CEFFC3;
+	
+}
+
+.lochnessmonster{
+	background-color:#8BBB87;
+	
+}
+
+@media screen (min-width:1440px){
+	.box{
+		width:100%;
+	}
+}
+
+@media (max-width:500px){
+	.chupacabra, .merman{
+		display:none;
+	}
+}
+/*commas represent an "and" in your css selector to save space and code
+
+
+500px is usually landcspae*/
